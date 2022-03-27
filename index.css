@@ -2,16 +2,12 @@
     margin:0 auto;
     padding:0;
     color:#333;
-    font-family:NanumGothic;
+    font-family: 'Poor Story', cursive;
 }
 
 a{
     display:block;
     text-decoration:none;
-}
-
-hr{
-    width:100%;
 }
 
 #header{
@@ -42,6 +38,7 @@ hr{
             width:600px;
             height:30px;
             float:left;
+            font-size:12pt;
             border:solid #333 1px;
             border-right:none;
         }
@@ -65,8 +62,83 @@ hr{
             width:80px;
             height:80px;
             float:left;
-            font-size:13px;
+            font-size:12pt;
             text-align:center;
             line-height:80px;
             list-style:none;
         }
+#header_main_hr{
+    width:100%;
+}
+#main{
+    width:100%;
+    height:800px;
+    position:relative;
+}
+
+#footer{
+    width:100%;
+    height:350px;
+    position:relative;
+    background-color: #31383e;
+}
+    #footer_menu{
+        width:100%;
+        height:180px;
+        float:left;
+    }
+
+        #footer_logo{
+            width:140px;
+            height:70px;
+            float:left;
+            margin-top:30px;
+            margin-left:250px;
+        }
+
+        #footer_menu ul{
+            float:left;
+            margin-top:50px;
+            margin-right:50px;
+        }
+
+        #customer{
+            margin-left:200px;
+        }
+
+            #footer_menu ul li {
+                width: 120px;
+                height: 30px;
+                font-size: 13pt;
+                color: #c7c7c7;
+                list-style: none;
+            }
+
+    #other{
+        width:100%;
+        height:150px;
+        float:left;
+        margin-left:200px;
+    }
+        #information{
+            width:100%;
+            height:50px;
+            float:left;
+        }
+            #information li{
+                height:30px;
+                float:left;
+                margin-left:30px;
+                color:#c7c7c7;
+                list-style:none;
+            }
+
+        #sns{
+            margin-left:20px;
+        }
+
+            #sns img{
+                width:50px;
+                height:50px;
+                float:left;
+            }
